@@ -1,0 +1,20 @@
+.one-class {
+  background-color: rgb(255, 192, 203);
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.cool {
+  font-size: 24px;
+}
+
+#one-id {
+  color: blue;
+  font-size: 36px;
+}
+
+#two-id {
+  background-color: lightgreen;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
