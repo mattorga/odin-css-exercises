@@ -12,6 +12,16 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between; /* Add this line */
+  align-items: center; /* Add this line for vertical centering */
+  padding: 8px; /* Add some padding for spacing */
+}
+
+.utilities {
+  display: flex;
+  align-items: center; /* Change this from align-content to align-items */
+  gap: 16px; /* Add some gap between the button and profile image */
 }
 
 .profile-image {
@@ -45,4 +55,6 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
 }

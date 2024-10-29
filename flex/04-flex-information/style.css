@@ -10,6 +10,19 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  max-width: fit-content;
+  margin: auto;
+}
+
+.fruits {
+  display: flex;
+  margin: 32px 80px;
+  gap: 52px
+}
+
+.item {
+  align-items: center;
+  text-align: center;
 }
 
 /* do not edit this footer */
